@@ -1,79 +1,59 @@
-# 🍕 Exemplo Lúdico — "Projeto Pizzaria Digital"
+# 💻 Exemplo Lúdico — "Projeto Calculadora Simples"
 
-## 🧩 Contexto geral
+## 🎯 1. Milestone — Meta principal
+Antes de começar, o grupo cria uma **milestone** para definir o objetivo geral do projeto.
 
-Você e seus amigos estão criando um site chamado **Pizzaria Digital**, onde o cliente pode montar sua pizza online.  
-O projeto está hospedado no **GitHub**.
+**Milestone — Versão 1.0 da Calculadora ✅**
 
----
+Inclui:
+- Issue #1 — Função de soma  
+- Issue #2 — Função de subtração  
+- Issue #3 — Função de multiplicação  
+- Issue #4 — Função de divisão  
 
-## 🧾 1. Issue (Problema ou Tarefa específica)
-
-As **issues** são como “cartõezinhos de tarefas” — cada uma representa algo que precisa ser feito ou corrigido.
-
-### 🗂 Exemplo:
-**Issue #1 — Adicionar o botão "Pedir Pizza" na página inicial**
-
-**Descrição:**
-
-> O site ainda não tem um botão para o cliente fazer o pedido.  
-> Criar um botão central com o texto “Pedir Pizza 🍕”, que redirecione para a página de montagem da pizza.
-
-**💬 Comentário na issue:**
-- @marlon vai cuidar do design do botão.  
-- @ana vai programar a função que redireciona o usuário.
+🎯 **Objetivo:**  
+> Finalizar todas as operações básicas até sexta-feira.
 
 ---
 
-## 🎯 2. Milestone (Meta ou Entrega maior)
+## 🧾 2. Issues — Dividindo o trabalho
+As **issues** são as tarefas específicas que compõem a milestone.
 
-As **milestones** agrupam várias issues que fazem parte de uma etapa importante do projeto.
+**Exemplo:**  
+**Issue #1 — Criar função de soma**
 
-### 🗂 Exemplo:
-**Milestone — Versão 1.0: Pizzaria Online Funcionando 🍕**
+> A calculadora ainda não soma números.  
+> Criar uma função `somar(a, b)` que retorne a soma dos dois valores.
 
-**Inclui:**
-- Issue #1 — Botão “Pedir Pizza”
-- Issue #2 — Página de montar pizza
-- Issue #3 — Sistema de pedidos
-- Issue #4 — Tela de confirmação
-
-**💬 Objetivo:**
-> Concluir todas essas issues até o final do mês para lançar o MVP (versão básica funcional).
+💬 **Comentários:**
+- @marlon vai programar a função.  
+- @ana vai testar o código.
 
 ---
 
-## 🔀 3. Pull Request (Proposta de alteração no código)
+## 🔀 3. Pull Request — Enviando o código
+Quando a tarefa (issue) é concluída, é feito um **Pull Request (PR)** para revisar e adicionar o código ao projeto principal.
 
-Um **pull request (PR)** é quando alguém finaliza uma tarefa (issue) e quer juntar o código ao projeto principal.
+**Exemplo:**  
+**PR — Adiciona função de soma**
 
-### 🗂 Exemplo:
-**Pull Request — Adiciona botão "Pedir Pizza" à página inicial**
-
-**Descrição:**
 > Resolves #1  
-> Cria um botão estilizado com Tailwind e adiciona o redirecionamento para `/montar-pizza`.
+> Cria a função `somar(a, b)` e testa o resultado no console.
 
-**👥 Revisão:**
-@ana revisa o código e comenta:  
-> “O botão está ótimo, só muda a cor para vermelho!”
-
-Depois da correção, o PR é aprovado e **mergeado** no repositório principal.
+💬 **Revisão:**  
+@ana comenta: “O código está ótimo, só falta validar se os números são válidos.”  
+Após o ajuste, o PR é aprovado e **mergeado**.
 
 ---
 
-## 🗃️ 4. Projects (Quadro de organização e progresso)
+## 🗃️ 4. Project — Acompanhando o progresso
+O **Projects** mostra o andamento do trabalho da equipe.
 
-O **Projects** é como um quadro de tarefas **Kanban** (“A fazer”, “Em andamento”, “Concluído”).
+**Project — Calculadora Simples 💻**
 
-### 🗂 Exemplo:
-**Project — Pizzaria Digital 🍕**
+| 🕓 A Fazer | 🧑‍💻 Em Andamento | ✅ Concluído |
+|------------|------------------|--------------|
+| Issue #4 | Issue #2, #3 | Issue #1 |
 
-**Colunas:**
-- 🕓 **A Fazer** → (Issue #2, Issue #3)
-- 🧑‍💻 **Em Andamento** → (Issue #1)
-- ✅ **Concluído** → (Issue #4)
-
-**💬 A cada avanço:**
-> Quando o botão for finalizado, mova a *Issue #1* para “Concluído”.  
-> Assim, todos veem o progresso do time! 🚀
+💬 A cada etapa concluída, mova a issue para “Concluído”.  
+Assim, todos visualizam o progresso do projeto em tempo real! 🚀
